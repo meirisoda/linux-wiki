@@ -1,0 +1,28 @@
+html { padding-left: 1em; }
+body {
+    font-family: monospace;
+    font-size: 1.3em;
+}
+
+footer { position: fixed; bottom: 0.5em; }
+
+:root {
+--font-size-h1: 2em;
+--font-size-h2: 1.5em;
+--font-size-h3: 1.3em; 
+--font-size-h4: 1em;
+
+--spacer: 2em; 
+}
+
+h1 {font-size: var(--font-size-h1);}
+h2 {font-size: var(--font-size-h2);}
+h3 {font-size: var(--font-size-h3);}
+h4 {font-size: var(--font-size-h4);}
+
+.directory {
+    padding-top: var(--spacer);
+    padding-left: 2em;
+}
+
+.heading { font-weight: bold; }
